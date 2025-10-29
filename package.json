@@ -1,0 +1,24 @@
+{
+  "name": "hotel-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "fix-npm": "node -e \"console.log('Repair npm: reinstall Node.js from https://nodejs.org or use nvm-windows. After that run npm install in this folder.')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18 <25",
+    "npm": ">=9"
+  },
+  "packageManager": "npm@9.8.0",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^7.5.0"
+  }
+}

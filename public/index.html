@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemini Hotel | Luxury Stay & Comfort</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">Gemini<span>Hotel</span></h1>
+      <ul class="nav-links">
+        <li><a href="#book">Book</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="/bookings.html" class="btn">My Bookings</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h2>Your Home Away from Home</h2>
+      <p>Experience luxury, comfort, and unforgettable hospitality.</p>
+      <a href="#book" class="btn-primary">Book Your Stay</a>
+    </div>
+  </header>
+
+  <!-- Booking Section -->
+  <main>
+    <section id="book" class="booking-section">
+      <h2>Reserve Your Room</h2>
+      <form id="booking-form" class="booking-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="John Doe" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="room-type">Room Type</label>
+          <select id="room-type">
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="suite">Luxury Suite</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="check-in">Check-in Date</label>
+          <input type="date" id="check-in" required>
+        </div>
+
+        <button type="submit" class="btn-primary">Book Now</button>
+      </form>
+
+      <div id="response-message"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <h2>About Gemini Hotel</h2>
+      <p>Located in the heart of the city, Gemini Hotel combines modern elegance with warm hospitality. Whether you’re here for business or leisure, our luxurious rooms and premium amenities ensure an unforgettable stay.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Email: info@geminihotel.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Address: 123 Seaside Avenue, Mumbai, India</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Gemini Hotel. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
